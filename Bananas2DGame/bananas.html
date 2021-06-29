@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bananas!</title>
+</head>
+<body style="text-align: center; font-family:'Trebuchet MS', Helvetica, sans-serif">
+<div>
+        <div style="display: inline-block; width: 600px">
+            <canvas class="canvas", height="700", width="550", style="background-color: #3e3e3e"></canvas>
+        </div>
+        <div style="display: inline-block; vertical-align: top; text-align: left">
+            <p>Use A or D, LEFT ARROW or RIGHT ARROW to move.</p>
+            <p>Use J, I, and L to shoot.</p>
+            <img src="ripe_banana.png" width="80" height="80">Press I to shoot
+            <h4>AMMO: Infinite</h4>
+            <br>
+            <br>
+
+            <img src="good_banana.png" width="80" height="80">Press J to shoot
+            <h4 id="GoodBananaCount"></h4>
+            <br>
+            <br>
+
+            <img src="old_banana.png" width="80" height="80">Press L to shoot
+            <h4 id="OldBananaCount"></h4>
+            <br>
+            <br>
+
+            <h4 id="score"></h4>
+            <h4 id="boss"></h4>
+            <h4 id="player"></h4>
+            <h4 id="gameover">Game Over</h4>
+            <h4 id="victory">YOU WIN!</h4>
+        </div>
+    </div>
+    <script type="text/javascript", src="enemyPellet.js"></script>
+    <script type="text/javascript", src="pellet.js"></script>
+    <script type="text/javascript", src="enemy.js"></script>
+    <script type="text/javascript", src="player.js"></script>
+    <script type="text/javascript", src="drawGame.js"></script>
+</body>
+</html>
